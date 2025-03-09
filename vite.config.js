@@ -8,8 +8,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    autoprefixer(),
-    "prettier-plugin-tailwindcss",
   ],
-  base: "/echo-portfolio",
+  base: '/echo-portfolio',
 })
