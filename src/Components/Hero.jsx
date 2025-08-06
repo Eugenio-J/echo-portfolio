@@ -39,7 +39,7 @@ const Hero = () => {
                     </motion.p >
                 </div>
             </div>
-            <div className="w-full lg:w-1/2 lg:p-8">
+            {/* <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
                     <motion.img 
                      variants={container(1.5)}
@@ -49,7 +49,7 @@ const Hero = () => {
                      src={profilePic} 
                      alt="Jericho Eugenio" />
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

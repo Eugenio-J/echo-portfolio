@@ -14,10 +14,9 @@ const Navbar = () => {
     <a href="https://www.linkedin.com/in/eugenio-j/" target="_blank" rel="noopener noreferrer">
       <FaLinkedin />
     </a>
-      {/* <FaLinkedin href="https://www.linkedin.com/in/eugenio-j/"/> */}
+     <a href="https://github.com/Eugenio-J" target="_blank" rel="noopener noreferrer">
       <FaGithub />
-      <FaInstagram />
-      <FaSquareXTwitter />
+    </a>
     </div>
   </nav>
 }
