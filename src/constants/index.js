@@ -1,8 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import FishPortMS from "../assets/projects/FishPortMS.png";
+import AngularToDo from "../assets/projects/AngularToDo.png";
+import AngularToDoVideo from "../assets/projects/AngularVid.mp4";
 
 export const HERO_CONTENT = `I am Software developer with over a year of experience contributing to four projects. Skilled in ASP.NET Core, C#, Blazor, Entity Framework Core, and MSSQL, specializing in RESTful API development, database optimization with LINQ, and real-time updates using SignalR. Experienced in performance optimization with caching strategies and enhancing UI/UX with MudBlazor. Passionate about building efficient, scalable solutions and collaborating in Agile environments.`;
 
@@ -23,13 +21,23 @@ export const EXPERIENCES = [
   },  
 ];
 
+
 export const PROJECTS = [
   {
     title: "Fishport Management System",
     image: FishPortMS,
+    videoURL:'/echo-portfolio/src/assets/projects/JOMARDEMO.mp4',
     description:
       "A Progressive Web App (PWA) that digitizes and streamlines fish port operations such as transactions and reporting. It supports real-time monitoring, secure role-based access, and can be installed on any device like a native app for convenient.",
     technologies: ["C#", ".NET", "MSSQL", "Blazor", "MudBlazor", "Azure", "JWT", "Cookies", "Blob"],
+  },
+  {
+    title: "TODO App",
+    image: AngularToDo,
+    videoURL:'/echo-portfolio/src/assets/projects/AngularVid.mp4',
+    description:
+      "This is a full-stack Todo application developed as a learning project to strengthen my skills in Angular, .NET, and SQL Server. The frontend is built with Angular to explore core concepts such as components, data binding, directives, services, and routing. The backend is implemented using .NET, providing RESTful APIs for task management, while data is stored and managed in a Microsoft SQL Server (MSSQL) database. The main goal of this project is to gain hands-on experience in building and integrating a complete web application from frontend to backend.",
+    technologies: ["C#", ".NET", "MSSQL", "Angular", "TailwindCSS"],
   },
 ];
 
