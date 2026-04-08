@@ -1,4 +1,5 @@
 import FishPortMS from "../assets/projects/FishPortMS.png";
+import FinTrackerImg from "../assets/projects/fintrackimg.png";
 import AngularToDo from "../assets/projects/AngularToDo.png";
 import AngularToDoVideo from "../assets/projects/AngularVid.mp4";
 
@@ -29,7 +30,8 @@ export const PROJECTS = [
     videoURL: 'videos/JOMARDEMO.mp4',
     description:
       "A Progressive Web App (PWA) that digitizes and streamlines fish port operations such as transactions and reporting. It supports real-time monitoring, secure role-based access, and can be installed on any device like a native app for convenient.",
-    technologies: ["C#", ".NET", "MSSQL", "Blazor", "MudBlazor", "Azure", "JWT", "Cookies", "Blob"],
+    technologies: ["C#", ".NET", "MSSQL", "Blazor", "MudBlazor", "Azure", "JWT", "Cookies", "Azure Blob Storage"],
+    link: ""
   },
   {
     title: "TODO App",
@@ -38,7 +40,15 @@ export const PROJECTS = [
     description:
       "This is a full-stack Todo application developed as a learning project to strengthen my skills in Angular, .NET, and SQL Server. The frontend is built with Angular to explore core concepts such as components, data binding, directives, services, and routing. The backend is implemented using .NET, providing RESTful APIs for task management, while data is stored and managed in a Microsoft SQL Server (MSSQL) database. The main goal of this project is to gain hands-on experience in building and integrating a complete web application from frontend to backend.",
     technologies: ["C#", ".NET", "MSSQL", "Angular", "TailwindCSS"],
+    link: ""
   },
+  {
+    title: "Finance Tracker",
+    image: FinTrackerImg,
+    description: "Personal Finance Tracker tailored to my personal budget routine. Made with .NET 10, React Typescript, and SQL Server.",
+    technologies: ["C#", ".NET", "MSSQL", "React", "Typescript", "Claude Pro"],
+    link: "https://financetrackerclient.vercel.app"
+  }
 ];
 
 export const CONTACT = {
