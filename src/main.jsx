@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './GlobalCss.css'; // ✅ Relative path
+import './GlobalCSS.css'; // ✅ Relative path
 import App from './App.jsx'
 
 
