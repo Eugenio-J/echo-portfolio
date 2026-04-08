@@ -1,6 +1,6 @@
 import FishPortMS from "../assets/projects/FishPortMS.png";
 import FinTrackerImg from "../assets/projects/fintrackimg.png";
-import AngularToDo from "../assets/projects/AngularToDo.png";
+import AngularToDo from "../assets/projects/AngularTodo.png";
 import AngularToDoVideo from "../assets/projects/AngularVid.mp4";
 
 export const HERO_CONTENT = `I am Software developer with over a year of experience contributing to four projects. Skilled in ASP.NET Core, C#, Blazor, Entity Framework Core, and MSSQL, specializing in RESTful API development, database optimization with LINQ, and real-time updates using SignalR. Experienced in performance optimization with caching strategies and enhancing UI/UX with MudBlazor. Passionate about building efficient, scalable solutions and collaborating in Agile environments.`;
@@ -30,7 +30,7 @@ export const PROJECTS = [
     videoURL: 'videos/JOMARDEMO.mp4',
     description:
       "A Progressive Web App (PWA) that digitizes and streamlines fish port operations such as transactions and reporting. It supports real-time monitoring, secure role-based access, and can be installed on any device like a native app for convenient.",
-    technologies: ["C#", ".NET", "MSSQL", "Blazor", "MudBlazor", "Azure", "JWT", "Cookies", "Azure Blob Storage"],
+    technologies: ["C#", ".NET", "MSSQL", "Blazor", "MudBlazor", "Azure", "JWT", "Cookies", "Azure Blob S"],
     link: ""
   },
   {
